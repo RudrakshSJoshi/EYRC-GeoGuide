@@ -33,9 +33,6 @@ This repository contains the code for an autonomous event detection and classifi
 - Optimize the system for improved performance and accuracy.
 - Experiment with different machine learning models and algorithms.
 
-## Acknowledgements
-We would like to express our gratitude to [Name of Institution/University] for providing us with the opportunity to participate in the GeoGuide(GG) Theme (eYRC 2023-24) competition. Additionally, we acknowledge the support and guidance of our mentors and advisors throughout the development process.
-
 ## Disclaimer
 This project is developed as part of an educational initiative and may contain experimental features. Use at your own risk.
 
