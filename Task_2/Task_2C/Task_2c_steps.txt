@@ -1,0 +1,17 @@
+Team ID = GG_3047
+Trained weights drive link = "https://drive.google.com/file/d/1tZpklDSR0NYvKXCbFelOyztTCRGpZy2C/view?usp=sharing"   
+###############################################################################
+'''
+Please write the complete steps taken by your team explaining how you completed Task 2C. It is advised to be as elaborate as possible.
+
+1.	A model was constructed using OpenCV (cv2) for object detection in images.
+2.	Fixed-size 56x56 pixel boxes were employed for the object detection task.
+3.	The image was divided into a grid of boxes with identical sizes.
+4.	For each box, the placement of its top-left corner within the image was determined.
+5.	The content within each box was accessed.
+6.	The content was passed to a previously built image classification model.
+7.	Class labels were provided by this model to identify the content within each box.
+8.	The class labels for all 5 detected objects in the image were collected.
+9.	The outcome consisted of the class labels that were gathered.
+10.	The final procedure was taken to incorporate the model into the boilerplate code provided to us by eYantra website.
+11.	The model was finally completed, with sometimes minute changes to make the model better.

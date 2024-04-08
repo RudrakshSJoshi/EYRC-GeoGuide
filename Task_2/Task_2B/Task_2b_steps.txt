@@ -1,0 +1,30 @@
+Team ID = GG_3047
+Trained weights drive link = "https://drive.google.com/file/d/1Xy1reRBWQMv3qla_sHxLDdF7lLqDeJVi/view?usp=drivesdk"
+
+###############################################################################
+'''
+Please write the complete steps taken by your team explaining how you completed Task 2B. It is adviced to be as elaborate as possible.
+
+
+1.	The essential libraries were imported to initiate the task.
+2.	In the interest of consistent results, random seeds were set for the project.
+3.	Proivded labels were given to the classes based on the description proivded to us.
+4.	For the images, a fixed size was chosen(256 x 256 pixels), and the paths to the training and testing image data directories were fixed.
+5.	The training and testing data was loaded with corresponding labels and added to the list.
+6.	Some images were printed to verify proper loading of data.
+7.	Following that, the data was transformed into NumPy arrays.
+8.	To prepare for training and testing, the data was split accordingly.
+9.	The pixel values of the images were normalized to fit the model.
+10.	Data augmentation techniques were applied to better the model.
+11.	A Convolutional Neural Network (CNN) model was crafted which included MaxPooling2D, Conv2D, Flatten, Dense, with appropriate activation functions such as ReLU and Softmax, etc.
+12.	After the basis was set, the model was compiled with all the right settings.
+13.	A bit of support and tuning was added to the model with introduction of early stopping and a learning rate scheduler.
+14.	A custom callback was created to keep an eye on accuracy.
+15.	The training phase was finally launched to create as accurate as possible of a model.
+16.	Once the training was complete, the model's performance was evaluated.
+17.	The misclassified examples were then taken for identification and evaluation.
+18.	After identification, they were sorted and counted by class, and all the changes were taken into consideration.
+19.	It was time to put the model to the test on new data and make predictions.
+20.	Then the model was showcased by visualizing its predictions on fresh data.
+21.	The model was downloaded and the weights were stored as data locally into the folder, with regular updation whenever a higher accuracy was achieved.
+22.	Finally, relevant changes were made in consideration with the layout handed over by the eYantra webpage.
